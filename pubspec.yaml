@@ -1,0 +1,96 @@
+name: mint_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  analyzer: ^5.8.0
+  bloc: ^8.1.1
+  bloc_concurrency: ^0.2.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+  dart_code_metrics: ^5.7.0
+  equatable: ^2.0.5
+  file_picker: ^5.2.2
+  filesystem_picker: ^3.1.0
+  firebase_auth: ^4.1.0
+  firebase_dynamic_links: ^5.0.14
+  firebase_core: ^2.1.1
+  firebase_storage: ^11.0.3
+  firebase_messaging: ^14.6.1
+  http: ^0.13.5
+  json_annotation: ^4.7.0
+  pin_code_fields: ^7.4.0
+  freezed_annotation: ^2.1.0
+  get_it: ^7.2.0
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  cloud_firestore: ^4.0.3
+  connectivity_plus: ^2.3.9
+  flutter_screenutil: ^5.8.1
+  uuid: ^3.0.7
+  flutter_rating_bar: ^4.0.1
+  table_calendar: ^3.0.8
+  device_preview: ^1.1.0
+  agora_rtc_engine: ^6.1.1
+  permission_handler: ^10.2.0
+  open_file: ^3.2.1
+  path_provider: ^2.0.11
+  just_audio: ^0.9.27
+  just_waveform: ^0.0.3
+  record: ^4.3.1
+  grouped_list: ^5.1.1
+  image_picker: ^0.8.5+3
+  flutter_slidable: ^3.0.0
+  flutter_local_notifications: ^14.0.0+2
+  flutter_dotenv: ^5.0.2
+
+  
+ 
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^5.0.2
+  build_runner: ^2.2.1
+  flutter_gen_runner: ^5.2.0
+  freezed: ^2.3.2
+  json_serializable: ^6.5.1
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
+  firebase_auth_mocks: ^0.11.0
+  fake_cloud_firestore: ^2.4.1+1
+  firebase_storage_mocks: ^0.6.1
+
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+
+  assets:
+    enabled: true
+    package_parameter_enabled: false
+   
+
+    outputs:
+      class_name: MyAssets
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - .env
+    - assets/icons/
+    
